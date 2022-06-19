@@ -6,14 +6,6 @@ var api_domain = '127.0.0.1:9101';
 // var web_domain = '127.0.0.1:80';
 var web_domain = 'localhost:80';
 
-// GET USER NAME
-// var url = new URL(document.URL);
-// const params = url.searchParams;
-// console.log(params);
-// $('.username-label').text(params.get('user'));
-
-console.log('HI');
-
 $(function() {
     if (checkCookie('x-access-token')) {
         let userToken = getCookie('x-access-token');
