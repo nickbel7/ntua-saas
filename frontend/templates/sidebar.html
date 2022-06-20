@@ -1,34 +1,36 @@
 <nav>
     <ul class="nav-items">
-        <li id="home-li">
-            <a href="/" id="home-a" >
-                <img id="home-img" class="nav-img hover-img" src="images/icons/icons-home.svg">
-                <span>Newsfeed</span>
-            </a>
-        </li>
-        <li id="total-li">
-            <a href="/total" >
-                <img id="total-img" class="nav-img hover-img1" src="images/icons/icons-lightning-black.png">
-                <span>Actual Total</span>
-            </a>
-        </li>
-        <li id="generation-li">
-            <a href="/generation" >
-                <img id="generation-img" class="nav-img hover-img2" src="images/icons/icons-funel-black.png">
-                <span>Generation Per Type</span>
-            </a>
-        </li>
-        <li id="flows-li">
-            <a href="/flows" >
-                <img id="flows-img" class="nav-img hover-img3" src="images/icons/icons-arrows-black.png">
-                <span>Physical Flows</span>
-            </a>
-        </li>
+        <a href="/">
+            <li id="home-li" href="/">
+                <i class="material-icons nav-icon">home</i>&nbsp;&nbsp;
+                Newsfeed
+            </li>
+        </a>
+        <a href="/total">
+            <li id="total-li">
+                <i class="material-icons nav-icon">battery_charging_full</i>&nbsp;&nbsp;
+                Actual Total
+            </li>
+        </a>
+        <a href="/generation">
+            <li id="generation-li">
+                <i class="material-icons nav-icon">bolt</i>&nbsp;&nbsp;
+                Generation Per Type
+            </li>
+        </a>
+        <a href="/flows">
+            <li id="flows-li">
+                <i class="material-icons nav-icon">sync_alt</i>&nbsp;&nbsp;
+                Physical Flows
+            </li>
+        </a>
     </ul>
     <ul class="nav-options">
         <li>
-            <img class="nav-icon" src="images/logout.png" alt="Log out icon"/>
-            <a href ="#" class="logout-btn">Log out</a>
+            <button class="signout-btn">
+                <img class="nav-icon" src="images/logout.png" alt="Log out icon"/>
+                Sign out
+            </button>
         </li>
     </ul>
 </nav>
