@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 .navbar-brand {
-    width: 10.5em;
+    width: 11.2em;
     display: flex;
     justify-content: center;
     .nav-logo {
@@ -132,7 +132,7 @@
 #side-navbar { 
     background-color: $primary;
     height: 100%;
-    width: 13em;
+    width: 14em;
     nav {
         display: flex;
         flex-direction: column;
@@ -149,12 +149,24 @@
                 margin: 1em 0em 0em 0em;
                 padding: 0.7em 0.5em;
                 display: flex;
-                justify-content: center;
+                justify-content: flex-start;
                 border-radius: $border-radius-sm;
-                .nav-img img:last-child{display:none}
-                .nav-img:hover img:first-child{display:none}
-                .nav-img:hover img:last-child{display:inline-block}
-                
+                .nav-img {
+                    width: 1.7em;
+                    margin-right: 0.2em;
+                }
+                .hover-img {
+                    content: url('../images/icons/icons-home-white.png');     
+                }
+                .hover-img1 {
+                    content: url('../images/icons/icons-lightning-white.png');     
+                }
+                .hover-img2 {
+                    content: url('../images/icons/icons-funel-white.png');
+                }
+                .hover-img3 {
+                    content: url('../images/icons/icons-arrows-white.png');
+                }
                 a {
                     color: $black;
                 }

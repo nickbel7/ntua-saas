@@ -34,6 +34,7 @@ frontend/package-lock.json
 
 frontend/bundles/node_modules
 frontend/bundles/package-lock.json 
+frontend/bundles/dist
 
 /microservice01/authentication-front/node_modules
 /microservice01/node_modules
@@ -46,5 +47,3 @@ frontend/bundles/package-lock.json
 /microservice05/config.ini
 
 # /microservice01/.env
-
-/docker/
