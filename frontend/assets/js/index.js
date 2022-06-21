@@ -94,3 +94,10 @@ function setUserElements (name, firstName, email, picture, daysRem) {
     $('.subscription-time').html(daysRemActual.toString() + ' days left');
 }
 
+var countriesList = {
+    'AL': 'Albania : ', 
+    'AT': 'Austria : flag',
+    'BY': 'Belarus : flag',
+    'BE': 'Belgium : flag',
+    'BA': 'Bosnia Herzegovina : flag', 
+}
