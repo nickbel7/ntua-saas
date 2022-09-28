@@ -25,7 +25,7 @@ We provide authorization with google credentials as well as with our own authent
 |[elinasyr](https://github.com/elinasyr)           |❤️|||❤️||||||| 
 |[kon-si](https://github.com/kon-si)               |❤️|❤️|❤️||❤️|❤️||❤️|❤️|| 
 |[nickbel7](https://github.com/nickbel7)           |❤️|❤️||❤️|❤️|❤️||❤️|❤️|❤️| 
-|[nikosece2019](https://github.com/nikosece2019)   ||❤️|||❤️|||||| 
+|[nikosece2019](https://github.com/nikosece2019)   |❤️|❤️|||❤️|||||| 
 
 ## 🏗️ Architecture (Microservices)
 #### Link to [.vpp (Visual Paradigm) file](https://github.com/ntua/saas2022-20/blob/master/architecture/Diagrams/Saas-Project.vpp)
